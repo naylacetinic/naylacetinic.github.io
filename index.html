@@ -13,8 +13,19 @@
             font-family: Arial;
             text-align: center;
         }
-        div .tudo {
+        div #tudo {
             font-family: monospace;
+        }
+        #idade {
+            background-color: #F7567C;
+            color: white;
+        }
+        #cidade {
+            color: gray;
+        }
+        #habilidades {
+            list-style-type: circle;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -25,9 +36,9 @@
         <a href="#minhasHabilidades">Minhas habilidades</a>
         <br> <br>
         <img id="minhaFoto" src="./img/NaylaCetinic.jpeg" alt="Fota da Nayla Cetinic, vulgo eu :)" width="25%">
-        <p id="sobreMim">Olá, sou a Nayla Cetinic, tenho <em>18 anos</em> e sou de <sstrong>São Paulo - SP</sstrong></p>
+        <p id="sobreMim">Olá, sou a Nayla Cetinic, tenho <em id="idade">18 anos</em> e sou de <sstrong id="cidade">São Paulo - SP</sstrong></p>
         <h3 id="minhasHabilidades">Minhas habilidades:</h3>
-        <ul>
+        <ul id="habilidades">
             <li>Git, GitHub</li>
             <li>HTML</li>
             <li>CSS</li>
