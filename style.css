@@ -1,21 +1,32 @@
 body {
     background-color: #FFFAE3;
 }
-h1 #titulo {
+#meuNome, #sobremim {
     font-family: Arial;
-    text-align: center;
 }
-div #tudo {
-    font-family: monospace;
+#meuNome {
+    text-align: center;
 }
 #idade {
     background-color: #F7567C;
     color: white;
 }
-#cidade {
-    color: gray;
-}
 #habilidades {
     list-style-type: circle;
+}
+.git {
     font-size: 15px;
+}
+.html {
+    font-size: 17px;
+}
+.css {
+    font-size: 19px;
+}
+#minhaFoto {
+    float: left;
+    height: 200px;
+}
+.imgDesc {
+    height: 200px;
 }
