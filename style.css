@@ -25,7 +25,9 @@ body {
 }
 #minhaFoto {
     float: left;
-    height: 200px;
+    height: 180px;
+    padding: 10px;
+    background-color: #5D576B;
 }
 .imgDesc {
     height: 200px;
