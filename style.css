@@ -1,5 +1,6 @@
 body {
     background-color: #FFFAE3;
+    margin: 2%;
 }
 #meuNome, #sobremim {
     font-family: Arial;
@@ -29,6 +30,16 @@ body {
     padding: 10px;
     background-color: #5D576B;
 }
+#sobreMim {
+    position: absolute;
+    font-size: 20px;
+    top: 30%;
+    right: 10%;
+}
 .imgDesc {
     height: 200px;
+    position: relative;
+}
+ul li:nth-child(odd) {
+    background-color: #99E1D9;
 }
